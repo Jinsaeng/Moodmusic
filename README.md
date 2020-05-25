@@ -53,9 +53,9 @@ The two device folder variables are defined because of the daisy chained tempera
 If any additional sensors were to be added on the daisy chain, the code would have to be altered accordingly.
 
 
-##Authors
+## Authors
 Anthony Lam and Sally Kim
 
 
-#Project Status
+## Project Status
 Sensors have finished implementation. Algorithm has been tested and implemented. Some features and the UI are still in progression, but basic mood reading and music playing is completed. Project is put on hold. 
