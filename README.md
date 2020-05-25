@@ -2,8 +2,7 @@
 Project to implement a device that reads the user's "mood" and translate it into music
 
 
-Some addiitonal README information (unupdated)
-# MOODMUSIC
+Some additonal README information (unupdated)
 
 Moodmusic.py is the Python software library for running the sensors of the moodmusic device.
 This device will use sensors to record the user's biometrics and surrounding environment into
