@@ -23,7 +23,9 @@ Stereo Decoder (UDA1334A) installation command line. Additonal information on se
 curl -sS https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/i2samp.sh | bash
 ```
 Accelerometer module installation lines. Addtional information on setup and installation can be found [here](https://pimylifeup.com/raspberry-pi-accelerometer-adxl345/)
+
 Following the assumption that all previous I2C modules are already uploaded and tested for accuracy.
+
 ---bash
 sudo pip3 install adafruit-circuitpython-ADXL34x
 ---
