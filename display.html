@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 4, from LayoutIt!</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="jumbotron">
+				<h3>
+					Song Title:
+					{{song}}
+				</h3>
+<div>
+				<audio controls>
+					<source src={{src}} type-"audio/mpeg">
+				</audio>
+</div>
+				<div>
+					Current Mood = {{mood}} 
+ 			
+        <a href="/settings">
+          <span class="glyphicon glyphicon-question-sign">?</span>
+        </a>
+   
+				</div>
+				
+				<div>
+					Not your Current Mood?
+				<form action="/change_mood" method="get">
+    				<input type="submit" value="Change it"
+       				  name="Submit" id="frm1_submit" />
+				</form>
+				</div>
+				
+			</div>
+		</div>
+<br></br>
+<a href="/">Home</a>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
